@@ -2,6 +2,16 @@
   <div>
     <h1>Leafkit Mask - Playground</h1>
 
+    <div class="field">
+      <label>Number <span>[ {{ mask.number }} ]</span></label>
+      <input type="text" name="number" v-model="mask.number" v-mask-number>
+    </div>
+
+    <div class="field">
+      <label>Number <span>[ {{ mask.number }} ]</span></label>
+      <input type="text" name="number" v-model="mask.number" v-mask-number>
+    </div>
+
   </div>
 </template>
 
@@ -9,7 +19,11 @@
   export default {
     data () {
       return {
-        mask: {}
+        mask: {
+          generic: '',
+          decimal: 0,
+          number: 0
+        }
       }
     },
     mounted () {
@@ -17,7 +31,11 @@
     },
     methods: {
       defaultValues () {
-        this.mask = {}
+        this.mask = {
+          generic: 'fbh3737h4hr377',
+          decimal: 345738872,
+          number: 2387832
+        }
       }
     }
   }
