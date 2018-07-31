@@ -1,6 +1,6 @@
 {
   "name": "leafkit-mask",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "description": "Diretivas Vue de máscaras de Input",
   "main": "dist/leafkit-mask.common.js",
   "module": "dist/leafkit-mask.esm.js",
