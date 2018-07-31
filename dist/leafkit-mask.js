@@ -1,3 +1,10 @@
+/**
+  * Leafkit - Ferramentas Vue para UI
+  * 
+  * leafkit-mask v0.5.0
+  * @license MIT
+  * (c) 2018 hvpaiva
+  */
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
 	typeof define === 'function' && define.amd ? define(factory) :
@@ -368,4 +375,3 @@ if (typeof window !== 'undefined' && window.Vue) {
 return index;
 
 })));
-//# sourceMappingURL=leafkit-mask.js.map

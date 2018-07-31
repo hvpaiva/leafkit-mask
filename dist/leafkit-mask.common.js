@@ -363,7 +363,9 @@ function install(Vue) {
 var index = {install: install};
 
 if (typeof window !== 'undefined' && window.Vue) {
+  
   window.Vue.use({install: install});
+  
 }
 
 module.exports = index;
