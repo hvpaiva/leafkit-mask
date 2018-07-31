@@ -5,7 +5,7 @@ echo "Informe a versão da release: "
 read VERSION
 
 read -p "Releasing $VERSION - tem certeza? (s/n)" -n 1 -r
-echo    # (optional) move to a new line
+echo    
 if [[ $REPLY =~ ^[Ss]$ ]]
 then
   echo "Releasing $VERSION ..."
