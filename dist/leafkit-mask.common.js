@@ -1,7 +1,7 @@
 /**
   * Leafkit - Ferramentas Vue para UI
   * 
-  * leafkit-mask v0.5.0
+  * leafkit-mask v0.5.5
   * @license MIT
   * (c) 2018 hvpaiva
   */
